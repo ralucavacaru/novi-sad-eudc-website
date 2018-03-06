@@ -72,21 +72,9 @@ $menu-padding: ($header-size - $menu-font-size) / 2;
 }
 
 @media only screen and (max-width: 1000px) {
-  .mob-menu-icon,
-  .mob-menu-close {
-    display: block;
-    font-size: 40px;
-    position: absolute;
-    top: ($header-size - 40px) / 2;
-    right: ($header-size - 40px) / 2;
-  }
-  .mob-menu-close {
-    z-index: 300;
-    position: fixed;
-  }
-
-  .menu {
-    display: none;
+  %mob-expand-icon {
+    float: right;
+    font-size: 24px;
   }
 
   .visible {
@@ -96,20 +84,39 @@ $menu-padding: ($header-size - $menu-font-size) / 2;
     display: none;
   }
 
+  .mob-menu-icon,
+  .mob-menu-close {
+    font-size: 40px;
+    position: absolute;
+    top: ($header-size - 40px) / 2;
+    right: ($header-size - 40px) / 2;
+  }
+  .mob-menu-close {
+    z-index: 300;
+    position: fixed;
+  }
+  .mob-menu-icon {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
   .mob-menu {
     background-color: $novi-sad-blue;
     box-shadow: $default-shadow;
     color: white;
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100vw;
+    right: 0;
+    width: 250px;
     min-height: 100vh;
     z-index: 200;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
 
     .top-level:first-child {
       margin-top: 60px;
@@ -122,9 +129,8 @@ $menu-padding: ($header-size - $menu-font-size) / 2;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-      margin: 0 60px;
+      margin: 0 30px;
       padding: 10px;
-      //max-width: 700px;
 
       a {
         color: white;
@@ -132,16 +138,39 @@ $menu-padding: ($header-size - $menu-font-size) / 2;
         padding: 4px;
       }
       .sub-level {
+        display: none;
+      }
+      .mob-more {
+        @extend %mob-expand-icon;
+        display: inline-block;
+      }
+      .mob-less {
+        display: none;
+      }
+    }
+    .top-level.active {
+      .sub-level {
         display: block;
 
         a {
-          display: inline-block;
+          display: block;
           font-weight: 200;
           font-size: 16px;
+          padding-left: 20px;
         }
         a:hover {
           font-weight: 400;
         }
+        a:first-child {
+          margin-top: 5px;
+        }
+      }
+      .mob-more {
+        display: none;
+      }
+      .mob-less {
+        @extend %mob-expand-icon;
+        display: inline-block;
       }
     }
   }

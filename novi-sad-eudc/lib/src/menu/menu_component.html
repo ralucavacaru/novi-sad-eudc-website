@@ -39,14 +39,29 @@
         <a>Contact</a>
     </div>
 </nav>
-<i (click)="toggleMobMenu()" class="material-icons ns-blue mob-menu-icon">menu</i>
-<i (click)="toggleMobMenu()" [class.hidden]="!isMobMenuActive" class="material-icons ns-white mob-menu-close">close</i>
+
+
+
+<i (click)="toggleMobMenu()"
+   class="material-icons ns-blue mob-menu-icon">menu</i>
+<i (click)="toggleMobMenu()"
+   [class.hidden]="!isMobMenuActive"
+   [class.visible]="isMobMenuActive"
+   class="material-icons ns-white mob-menu-close">close</i>
 <nav class="mob-menu" [class.visible]="isMobMenuActive">
-    <div class="top-level">
+    <div class="top-level"
+         #home
+         (click)="onMobMenuSelect(home)"
+         [class.active]="isMobMenuSelected(home)">
         <a [routerLink]="['Homepage']">Home</a>
     </div>
-    <div class="top-level">
+    <div class="top-level"
+         #about
+         (click)="onMobMenuSelect(about)"
+         [class.active]="isMobMenuSelected(about)">
         <a>About</a>
+        <i class="material-icons mob-more">expand_more</i>
+        <i class="material-icons mob-less">expand_less</i>
         <div class="sub-level">
             <a [routerLink]="['About']">Debating</a>
             <a>The competition</a>
@@ -54,15 +69,25 @@
             <a>Novi Sad</a>
         </div>
     </div>
-    <div class="top-level">
+    <div class="top-level"
+         #team
+         (click)="onMobMenuSelect(team)"
+         [class.active]="isMobMenuSelected(team)">
         <a>Who we are</a>
+        <i class="material-icons mob-more">expand_more</i>
+        <i class="material-icons mob-less">expand_less</i>
         <div class="sub-level">
             <a>CA Team</a>
             <a>etc.</a>
         </div>
     </div>
-    <div class="top-level">
+    <div class="top-level"
+         #tournament
+         (click)="onMobMenuSelect(tournament)"
+         [class.active]="isMobMenuSelected(tournament)">
         <a>Tournament</a>
+        <i class="material-icons mob-more">expand_more</i>
+        <i class="material-icons mob-less">expand_less</i>
         <div class="sub-level">
             <a>Registration</a>
             <a>Venues</a>
@@ -72,13 +97,22 @@
             <a>Scholarship Program</a>
         </div>
     </div>
-    <div class="top-level">
+    <div class="top-level"
+         #partners
+         (click)="onMobMenuSelect(partners)"
+         [class.active]="isMobMenuSelected(partners)">
         <a>Partners</a>
     </div>
-    <div class="top-level">
+    <div class="top-level"
+         #faq
+         (click)="onMobMenuSelect(faq)"
+         [class.active]="isMobMenuSelected(faq)">
         <a>FAQ</a>
     </div>
-    <div class="top-level">
+    <div class="top-level"
+         #contact
+         (click)="onMobMenuSelect(contact)"
+         [class.active]="isMobMenuSelected(contact)">
         <a>Contact</a>
     </div>
 </nav>

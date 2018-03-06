@@ -144,9 +144,18 @@
   display: none; }
 
 @media only screen and (max-width: 1000px) {
+  .mob-menu .top-level .mob-more, .mob-menu .top-level.active .mob-less {
+    float: right;
+    font-size: 24px; }
+
+  .visible {
+    display: block; }
+
+  .hidden {
+    display: none; }
+
   .mob-menu-icon,
   .mob-menu-close {
-    display: block;
     font-size: 40px;
     position: absolute;
     top: 10px;
@@ -156,13 +165,10 @@
     z-index: 300;
     position: fixed; }
 
-  .menu {
-    display: none; }
-
-  .visible {
+  .mob-menu-icon {
     display: block; }
 
-  .hidden {
+  .menu {
     display: none; }
 
   .mob-menu {
@@ -171,14 +177,14 @@
     color: white;
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100vw;
+    right: 0;
+    width: 250px;
     min-height: 100vh;
     z-index: 200;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     font-size: 18px;
-    text-align: center; }
+    text-align: left; }
     .mob-menu .top-level:first-child {
       margin-top: 60px;
       border: none; }
@@ -188,19 +194,32 @@
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-      margin: 0 60px;
+      margin: 0 30px;
       padding: 10px; }
       .mob-menu .top-level a {
         color: white;
         text-decoration: none;
         padding: 4px; }
       .mob-menu .top-level .sub-level {
-        display: block; }
-        .mob-menu .top-level .sub-level a {
-          display: inline-block;
-          font-weight: 200;
-          font-size: 16px; }
-        .mob-menu .top-level .sub-level a:hover {
-          font-weight: 400; } }
+        display: none; }
+      .mob-menu .top-level .mob-more {
+        display: inline-block; }
+      .mob-menu .top-level .mob-less {
+        display: none; }
+    .mob-menu .top-level.active .sub-level {
+      display: block; }
+      .mob-menu .top-level.active .sub-level a {
+        display: block;
+        font-weight: 200;
+        font-size: 16px;
+        padding-left: 20px; }
+      .mob-menu .top-level.active .sub-level a:hover {
+        font-weight: 400; }
+      .mob-menu .top-level.active .sub-level a:first-child {
+        margin-top: 5px; }
+    .mob-menu .top-level.active .mob-more {
+      display: none; }
+    .mob-menu .top-level.active .mob-less {
+      display: inline-block; } }
 
 /*# sourceMappingURL=menu_component.css.map */
