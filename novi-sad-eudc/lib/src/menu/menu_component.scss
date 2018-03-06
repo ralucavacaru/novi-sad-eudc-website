@@ -1,0 +1,148 @@
+@import '../theme';
+$menu-padding: ($header-size - $menu-font-size) / 2;
+
+.menu {
+  color: $novi-sad-blue;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+
+  .top-level {
+    padding: $menu-padding 15px;
+    text-align: left;
+    display: inline-block;
+    font-size: $menu-font-size;
+    line-height: $menu-font-size;
+  }
+  .top-level:hover {
+    background-color: $novi-sad-blue;
+    color: white;
+
+    a {
+      color: white;
+    }
+    .dropdown-content a:hover {
+      color: $novi-sad-blue;
+      background-color: white;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: $novi-sad-blue;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+  .dropdown-content {
+    margin-top: $menu-padding;
+    font-weight: 400;
+    font-size: $submenu-font-size;
+    display: none;
+    position: absolute;
+    background-color: $novi-sad-blue;
+    min-width: 160px;
+    box-shadow: $default-shadow;
+    z-index: 1;
+    left: 0;
+
+    a {
+      padding: 12px 15px;
+    }
+  }
+}
+.dropdown:hover {
+  .dropdown-content {
+    display: block;
+    //padding-bottom: 15px;
+
+    a {
+      display: block;
+    }
+  }
+}
+
+// RESPONSIVE DESIGN
+.mob-menu-icon,
+.mob-menu,
+.mob-menu-close {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mob-menu-icon,
+  .mob-menu-close {
+    display: block;
+    font-size: 40px;
+    position: absolute;
+    top: ($header-size - 40px) / 2;
+    right: ($header-size - 40px) / 2;
+  }
+  .mob-menu-close {
+    z-index: 300;
+    position: fixed;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .visible {
+    display: block;
+  }
+  .hidden {
+    display: none;
+  }
+
+  .mob-menu {
+    background-color: $novi-sad-blue;
+    box-shadow: $default-shadow;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: 200;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+
+    .top-level:first-child {
+      margin-top: 60px;
+      border: none;
+    }
+
+    .top-level {
+      display: block;
+      border-top: solid 1px $novi-sad-accent-grey;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0 60px;
+      padding: 10px;
+      //max-width: 700px;
+
+      a {
+        color: white;
+        text-decoration: none;
+        padding: 4px;
+      }
+      .sub-level {
+        display: block;
+
+        a {
+          display: inline-block;
+          font-weight: 200;
+          font-size: 16px;
+        }
+        a:hover {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

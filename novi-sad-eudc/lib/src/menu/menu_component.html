@@ -1,0 +1,84 @@
+<nav class="menu">
+    <div class="top-level">
+        <a [routerLink]="['Homepage']">Home</a>
+    </div>
+    <div class="dropdown top-level">
+        About
+        <div class="dropdown-content">
+            <a [routerLink]="['About']">Debating</a>
+            <a>The competition</a>
+            <a>Serbia</a>
+            <a>Novi Sad</a>
+        </div>
+    </div>
+    <div class="dropdown top-level">
+        Who we are
+        <div class="dropdown-content">
+            <a>CA Team</a>
+            <a>etc.</a>
+        </div>
+    </div>
+    <div class="dropdown top-level">
+        Tournament
+        <div class="dropdown-content">
+            <a>Registration</a>
+            <a>Venues</a>
+            <a>Accommodation</a>
+            <a>Schedule</a>
+            <a>Socials</a>
+            <a>Scholarship Program</a>
+        </div>
+    </div>
+    <div class="top-level">
+        <a>Partners</a>
+    </div>
+    <div class="top-level">
+        <a>FAQ</a>
+    </div>
+    <div class="top-level">
+        <a>Contact</a>
+    </div>
+</nav>
+<i (click)="toggleMobMenu()" class="material-icons ns-blue mob-menu-icon">menu</i>
+<i (click)="toggleMobMenu()" [class.hidden]="!isMobMenuActive" class="material-icons ns-white mob-menu-close">close</i>
+<nav class="mob-menu" [class.visible]="isMobMenuActive">
+    <div class="top-level">
+        <a [routerLink]="['Homepage']">Home</a>
+    </div>
+    <div class="top-level">
+        <a>About</a>
+        <div class="sub-level">
+            <a [routerLink]="['About']">Debating</a>
+            <a>The competition</a>
+            <a>Serbia</a>
+            <a>Novi Sad</a>
+        </div>
+    </div>
+    <div class="top-level">
+        <a>Who we are</a>
+        <div class="sub-level">
+            <a>CA Team</a>
+            <a>etc.</a>
+        </div>
+    </div>
+    <div class="top-level">
+        <a>Tournament</a>
+        <div class="sub-level">
+            <a>Registration</a>
+            <a>Venues</a>
+            <a>Accommodation</a>
+            <a>Schedule</a>
+            <a>Socials</a>
+            <a>Scholarship Program</a>
+        </div>
+    </div>
+    <div class="top-level">
+        <a>Partners</a>
+    </div>
+    <div class="top-level">
+        <a>FAQ</a>
+    </div>
+    <div class="top-level">
+        <a>Contact</a>
+    </div>
+</nav>

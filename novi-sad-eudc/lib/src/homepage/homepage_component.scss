@@ -1,0 +1,22 @@
+@import '../theme';
+
+h2 {
+  color: black;
+}
+:host {
+  background-color: $novi-sad-blue;
+}
+
+.second-landing {
+  //margin-top: 100%;
+}
+.landing-image {
+  background-image: url(/packages/novi_sad_eudc/assets/img/novi-sad-3.jpg);
+}
+
+.full-width-card-img {
+  @extend %full-width-card-img;
+  background-image: url(/packages/novi_sad_eudc/assets/img/novi-sad-2.jpg);
+}
+
+

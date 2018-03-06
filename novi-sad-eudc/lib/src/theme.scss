@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
+
+$novi-sad-blue: #1b4172;
+$novi-sad-red: #b74241;
+$novi-sad-accent-grey: rgba(218, 224, 215, 0.7);
+
+$header-size: 60px;
+$header-side-margin: 80px;
+$logo-size: 120px;
+$header-background-color: rgba(255, 255, 255, 0.8);
+
+$menu-font-size: 18px;
+$submenu-font-size: 16px;
+
+$default-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+// ICONS
+.material-icons.ns-blue {
+  color: $novi-sad-blue;
+}
+.material-icons.ns-red {
+  color: $novi-sad-red;
+}
+.material-icons.ns-white {
+  color: white;
+}
+
+// CARDS
+.translucent-card {
+  background-color: $header-background-color;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  box-shadow: $default-shadow;
+
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    color: $novi-sad-blue;
+  }
+  p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+}
+.landing {
+  position: absolute;
+  top: $header-size + $header-side-margin;
+  right: $header-side-margin;
+  width: 600px;
+}
+
+%card-content {
+  display: inline-block;
+  text-align: center;
+
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+  }
+  h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+  }
+  p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+}
+%full-width-card {
+  width: 100%;
+  padding: 40px 100px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+
+  .card-content {
+    @extend %card-content;
+    max-width: 800px;
+    min-width: 300px;
+  }
+  .wide-card-content {
+    @extend %card-content;
+    max-width: 1200px;
+    min-width: 300px;
+  }
+}
+.full-width-card-blue {
+  @extend %full-width-card;
+  background-color: $novi-sad-blue;
+  h1, h2, h3, p {
+    color: white;
+  }
+}
+.full-width-card-red {
+  @extend %full-width-card;
+  background-color: $novi-sad-red;
+  h1, h2, h3, p {
+    color: white;
+  }
+}
+%full-width-card-img {
+  @extend %full-width-card;
+  background-attachment: fixed;
+  //background-color: $header-background-color;
+
+  h1, h2, h3, p {
+    color: white;
+  }
+}
+@mixin tinted-white-image($image) {
+  background: linear-gradient(0deg, $header-background-color, $header-background-color), $image no-repeat;
+}
+
+.content-columns {
+  display: flex;
+  justify-content: space-between;
+
+  .adaptive-column {
+    padding: 0 10px;
+  }
+
+  .fixed-column {
+    flex: 1;
+    padding: 0 10px;
+  }
+}
+
+// HEADER IMAGES
+.header-image {
+  //position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .credits {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: white;
+  }
+}

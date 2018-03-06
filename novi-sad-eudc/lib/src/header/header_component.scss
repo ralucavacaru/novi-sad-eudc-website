@@ -1,0 +1,39 @@
+@import '../theme';
+
+$semi-oval-width: 180px;
+$semi-oval-height: 90px;
+$logo-margin: $header-side-margin + ($semi-oval-width - $logo-size) / 2;
+
+:host {
+  width: 100%;
+  height: $header-size;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: $header-background-color;
+}
+img {
+  position: relative;
+  height: $logo-size;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left: $logo-margin;
+  z-index: 100;
+}
+
+ns-menu {
+  float: right;
+  margin-right: $header-side-margin;
+}
+
+.semi-oval {
+  background-color: $header-background-color;
+  width: $semi-oval-width;
+  height: $semi-oval-height;
+  border-radius: 50% / 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  position: absolute;
+  top: $header-size;
+  left: $header-side-margin;
+}
