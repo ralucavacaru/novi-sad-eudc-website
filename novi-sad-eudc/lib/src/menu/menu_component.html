@@ -41,7 +41,9 @@
 </nav>
 
 
-
+<div class="mob-blur"
+     [class.hidden]="!isMobMenuActive"
+     [class.visible]="isMobMenuActive"></div>
 <i (click)="toggleMobMenu()"
    class="material-icons ns-blue mob-menu-icon">menu</i>
 <i (click)="toggleMobMenu()"

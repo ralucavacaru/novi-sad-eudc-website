@@ -67,7 +67,8 @@ $menu-padding: ($header-size - $menu-font-size) / 2;
 // RESPONSIVE DESIGN
 .mob-menu-icon,
 .mob-menu,
-.mob-menu-close {
+.mob-menu-close,
+.mob-blur {
   display: none;
 }
 
@@ -173,5 +174,14 @@ $menu-padding: ($header-size - $menu-font-size) / 2;
         display: inline-block;
       }
     }
+  }
+  .mob-blur {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: $header-background-color;
+    z-index: 150;
   }
 }
