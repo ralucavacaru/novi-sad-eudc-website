@@ -8,12 +8,15 @@ $novi-sad-accent-grey: rgba(218, 224, 215, 0.7);
 $header-size: 60px;
 $header-side-margin: 80px;
 $logo-size: 120px;
+$mob-logo-size: 90px;
 $header-background-color: rgba(255, 255, 255, 0.8);
 
 $menu-font-size: 18px;
 $submenu-font-size: 16px;
 
 $default-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+$tablet-breakpoint: 1000px;
 
 // ICONS
 .material-icons.ns-blue {
@@ -80,12 +83,10 @@ $default-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   .card-content {
     @extend %card-content;
     max-width: 800px;
-    min-width: 300px;
   }
   .wide-card-content {
     @extend %card-content;
     max-width: 1200px;
-    min-width: 300px;
   }
 }
 .full-width-card-blue {
@@ -149,5 +150,121 @@ $default-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
     color: white;
+  }
+}
+.header-image-small {
+  //position: absolute;
+  $header-image-small-height: 300px;
+  top: 0;
+  width: 100vw;
+  height: $header-image-small-height;
+  z-index: -100;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+
+  .credits {
+    position: absolute;
+    top: $header-image-small-height - 40px;
+    right: 0;
+    padding: 15px;
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: white;
+  }
+}
+// RESPONSIVE DESIGN
+
+@media only screen and (max-width: $tablet-breakpoint) {
+  .landing {
+    width: 96vw;
+    left: 2vw;
+    right: 2vw;
+  }
+
+  %mob-card-content {
+    display: inline-block;
+    text-align: center;
+
+    h1 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 22px;
+    }
+    h2 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 18px;
+    }
+    p {
+      font-family: 'PT Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.5em;
+    }
+  }
+  %mob-full-width-card {
+    width: 100%;
+    padding: 40px 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+
+    .card-content {
+      @extend %mob-card-content;
+      max-width: 800px;
+    }
+    .wide-card-content {
+      @extend %mob-card-content;
+      max-width: 1200px;
+    }
+  }
+  .full-width-card-blue {
+    @extend %mob-full-width-card;
+    background-color: $novi-sad-blue;
+    h1, h2, h3, p {
+      color: white;
+    }
+  }
+  .full-width-card-red {
+    @extend %mob-full-width-card;
+    background-color: $novi-sad-red;
+    h1, h2, h3, p {
+      color: white;
+    }
+  }
+  %full-width-card-img {
+    @extend %mob-full-width-card;
+    background-attachment: fixed;
+
+    h1, h2, h3, p {
+      color: white;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header-image {
+    height: 130vh;
+
+    .credits {
+      top: 125vh;
+    }
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header-image {
+    height: 150vh;
+
+    .credits {
+      top: 145vh;
+    }
+  }
+}
+@media only screen and (max-width: 350px) {
+  .header-image {
+    height: 200vh;
+
+    .credits {
+      height: 195vh;
+    }
   }
 }

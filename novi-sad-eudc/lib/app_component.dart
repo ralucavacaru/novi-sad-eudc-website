@@ -4,6 +4,7 @@ import 'package:angular_router/angular_router.dart';
 import 'src/about/about_component.dart';
 import 'src/homepage/homepage_component.dart';
 import 'src/header/header_component.dart';
+import 'src/schedule/schedule_component.dart';
 
 @Component(
   selector: 'my-app',
@@ -22,6 +23,11 @@ import 'src/header/header_component.dart';
     name:'Homepage',
     component: HomepageComponent,
     useAsDefault: true
+  ),
+  const Route(
+    path:'/schedule',
+    name: 'Schedule',
+    component: ScheduleComponent
   )
 ])
 class AppComponent {
