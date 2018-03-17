@@ -22,7 +22,7 @@ class Day {
 class ScheduleComponent {
   final schedule = <Day>[
     new Day(
-      "Day 1",
+      "Monday 14 AUGUST",
       <Event>[
         new Event("10:00 - 00:00", "Registration", "Hotel"),
         new Event("13:00 - 14:00", "Lecture: International Conflict in Debates", "Room Pakri"),
@@ -39,7 +39,7 @@ class ScheduleComponent {
       ],
     ),
     new Day(
-      "Day 2",
+      "Tuesday 15 AUGUST",
       <Event>[
         new Event("06:30 - 07:45", "Breakfast", "Hotel"),
         new Event("08:00 - 08:15", "Buses leave to TTU"),
@@ -54,7 +54,7 @@ class ScheduleComponent {
         new Event("21:00", "Social", "Venue"),
       ],
     ),new Day(
-      "Day 3",
+      "Wednesday 16 AUGUST",
       <Event>[
         new Event("06:30 - 07:45", "Breakfast", "Hotel"),
         new Event("08:00 - 08:15", "Buses leave to TTU"),
@@ -70,7 +70,7 @@ class ScheduleComponent {
       ],
     ),
     new Day(
-      "Day 4",
+      "Thursday 17 AUGUST",
       <Event>[
         new Event("06:30 - 08:15", "Breakfast", "Hotel"),
         new Event("08:00 - 08:45", "Buses leave to TTU"),
@@ -86,7 +86,7 @@ class ScheduleComponent {
       ]
     ),
     new Day(
-      "Day 5",
+      "Friday 18 AUGUST",
       <Event>[
         new Event("06:30 - 09:00", "Breakfast", "Hotel"),
         new Event("09:00", "Buses leave to TTU"),

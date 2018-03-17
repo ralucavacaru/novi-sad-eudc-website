@@ -2,109 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7246b901-ec59-416d-a1ab-ea111bce5793" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/novi-sad-eudc.iml" afterPath="$PROJECT_DIR$/.idea/novi-sad-eudc.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lib/app_component.css" afterPath="$PROJECT_DIR$/lib/app_component.css" />
-      <change beforePath="$PROJECT_DIR$/lib/app_component.css.map" afterPath="$PROJECT_DIR$/lib/app_component.css.map" />
-      <change beforePath="$PROJECT_DIR$/lib/src/header/header_component.css" afterPath="$PROJECT_DIR$/lib/src/header/header_component.css" />
-      <change beforePath="$PROJECT_DIR$/lib/src/header/header_component.css.map" afterPath="$PROJECT_DIR$/lib/src/header/header_component.css.map" />
-      <change beforePath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css" afterPath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css" />
-      <change beforePath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css.map" afterPath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css.map" />
-      <change beforePath="$PROJECT_DIR$/lib/src/menu/menu_component.css" afterPath="$PROJECT_DIR$/lib/src/menu/menu_component.css" />
-      <change beforePath="$PROJECT_DIR$/lib/src/menu/menu_component.css.map" afterPath="$PROJECT_DIR$/lib/src/menu/menu_component.css.map" />
       <change beforePath="$PROJECT_DIR$/lib/src/schedule/schedule_component.css" afterPath="$PROJECT_DIR$/lib/src/schedule/schedule_component.css" />
       <change beforePath="$PROJECT_DIR$/lib/src/schedule/schedule_component.css.map" afterPath="$PROJECT_DIR$/lib/src/schedule/schedule_component.css.map" />
       <change beforePath="$PROJECT_DIR$/lib/src/schedule/schedule_component.dart" afterPath="$PROJECT_DIR$/lib/src/schedule/schedule_component.dart" />
       <change beforePath="$PROJECT_DIR$/lib/src/schedule/schedule_component.html" afterPath="$PROJECT_DIR$/lib/src/schedule/schedule_component.html" />
       <change beforePath="$PROJECT_DIR$/lib/src/schedule/schedule_component.scss" afterPath="$PROJECT_DIR$/lib/src/schedule/schedule_component.scss" />
-      <change beforePath="$PROJECT_DIR$/lib/src/theme.css" afterPath="$PROJECT_DIR$/lib/src/theme.css" />
-      <change beforePath="$PROJECT_DIR$/lib/src/theme.css.map" afterPath="$PROJECT_DIR$/lib/src/theme.css.map" />
-      <change beforePath="$PROJECT_DIR$/lib/src/theme.scss" afterPath="$PROJECT_DIR$/lib/src/theme.scss" />
-      <change beforePath="$PROJECT_DIR$/packages/analyzer" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/angular" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/angular_compiler" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/angular_components" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/angular_forms" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/angular_router" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/angular_test" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/ansicolor" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/archive" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/args" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/async" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/barback" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/boolean_selector" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/browser" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/build_barback" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/build_config" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/charcode" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/cli_util" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/code_builder" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/code_transformers" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/collection" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/convert" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/crypto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/csslib" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/dart_sass_transformer" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/dart_style" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/dart_to_js_script_rewriter" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/fixnum" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/front_end" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/func" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/glob" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/http" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/http_multi_server" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/http_parser" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/intl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/io" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/isolate" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/kernel" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/logging" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/matcher" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/mime" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/multi_server_socket" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/node_preamble" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/novi_sad_eudc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/observable" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/package_config" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/package_resolver" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/pageloader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/path" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/perf_api" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/plugin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/pool" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/pub_semver" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/quiver" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/quiver_hashcode" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/sass_builder" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/scratch_space" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/shelf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/shelf_packages_handler" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/shelf_static" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/shelf_web_socket" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/source_gen" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/source_map_stack_trace" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/source_maps" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/source_span" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/stack_trace" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/stream_channel" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/string_scanner" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/term_glyph" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/test" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/tuple" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/typed_data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/unittest" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/utf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/uuid" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/watcher" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/web_socket_channel" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/webdriver" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/packages/yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/packages" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/packages" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -145,8 +48,8 @@
           <file leaf-file-name="schedule_component.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="529">
-                  <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                <state relative-caret-position="677">
+                  <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -179,8 +82,8 @@
           <file leaf-file-name="theme.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/src/theme.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="550">
-                  <caret line="129" column="14" lean-forward="true" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
+                <state relative-caret-position="977">
+                  <caret line="267" column="20" lean-forward="true" selection-start-line="267" selection-start-column="20" selection-end-line="267" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -199,8 +102,8 @@
           <file leaf-file-name="schedule_component.dart" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.dart">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1860">
-                  <caret line="87" column="4" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+                <state relative-caret-position="533">
+                  <caret line="88" column="23" lean-forward="false" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -209,8 +112,8 @@
           <file leaf-file-name="schedule_component.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+                <state relative-caret-position="92">
+                  <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -276,10 +179,10 @@
         <option value="$PROJECT_DIR$/lib/assets/index.js" />
         <option value="$PROJECT_DIR$/lib/app_component.dart" />
         <option value="$PROJECT_DIR$/lib/src/menu/menu_component.html" />
-        <option value="$PROJECT_DIR$/lib/src/schedule/schedule_component.html" />
-        <option value="$PROJECT_DIR$/lib/src/schedule/schedule_component.dart" />
-        <option value="$PROJECT_DIR$/lib/src/schedule/schedule_component.scss" />
         <option value="$PROJECT_DIR$/lib/src/theme.scss" />
+        <option value="$PROJECT_DIR$/lib/src/schedule/schedule_component.dart" />
+        <option value="$PROJECT_DIR$/lib/src/schedule/schedule_component.html" />
+        <option value="$PROJECT_DIR$/lib/src/schedule/schedule_component.scss" />
       </list>
     </option>
   </component>
@@ -427,12 +330,12 @@
       <workItem from="1520606549682" duration="3458000" />
       <workItem from="1521209534413" duration="1438000" />
       <workItem from="1521304942793" duration="174000" />
-      <workItem from="1521305159373" duration="7454000" />
+      <workItem from="1521305159373" duration="8306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47754000" />
+    <option name="totallyTimeSpent" value="48606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-725" width="1920" height="1080" extended-state="0" />
@@ -789,34 +692,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.scss">
+    <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="533">
+          <caret line="88" column="23" lean-forward="false" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/theme.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="129" column="14" lean-forward="true" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="87" column="4" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+        <state relative-caret-position="977">
+          <caret line="267" column="20" lean-forward="true" selection-start-line="267" selection-start-column="20" selection-end-line="267" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="92">
+          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
           <folding />
         </state>
       </provider>
