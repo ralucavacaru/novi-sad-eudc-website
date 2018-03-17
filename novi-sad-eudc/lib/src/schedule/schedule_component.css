@@ -67,11 +67,11 @@
 
 .content-columns {
   display: flex;
-  justify-content: space-between; }
+  flex-wrap: wrap;
+  justify-content: center; }
   .content-columns .adaptive-column {
     padding: 0 10px; }
   .content-columns .fixed-column {
-    flex: 1;
     padding: 0 10px; }
 
 .header-image {
@@ -168,5 +168,40 @@
       height: 195vh; } }
 .landing-image {
   background-image: url(/packages/novi_sad_eudc/assets/img/novi-sad-banner.jpg); }
+
+.wide-card-content h2 {
+  text-align: left; }
+
+.day {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  width: 380px; }
+  .day .event {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 5px 0;
+    padding: 5px;
+    box-sizing: border-box; }
+    .day .event .time {
+      font-weight: 200;
+      display: inline-block;
+      vertical-align: top;
+      width: 85px;
+      text-align: right; }
+    .day .event .event-details {
+      display: inline-block;
+      text-align: left;
+      padding-left: 20px;
+      width: 250px; }
+      .day .event .event-details .event-name {
+        font-size: 16px;
+        font-weight: 300; }
+      .day .event .event-details .location {
+        font-weight: 200;
+        opacity: 0.7;
+        font-size: 14px; }
+        .day .event .event-details .location i {
+          font-size: 14px;
+          padding-right: 5px; }
 
 /*# sourceMappingURL=schedule_component.css.map */

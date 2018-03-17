@@ -118,14 +118,15 @@ $tablet-breakpoint: 1000px;
 
 .content-columns {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
 
   .adaptive-column {
     padding: 0 10px;
   }
 
   .fixed-column {
-    flex: 1;
+    //flex: 1;
     padding: 0 10px;
   }
 }

@@ -2,27 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7246b901-ec59-416d-a1ab-ea111bce5793" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/assets/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/src/schedule/schedule_component.dart" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/src/schedule/schedule_component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/src/schedule/schedule_component.scss" />
+      <change beforePath="$PROJECT_DIR$/.idea/novi-sad-eudc.iml" afterPath="$PROJECT_DIR$/.idea/novi-sad-eudc.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lib/app_component.css" afterPath="$PROJECT_DIR$/lib/app_component.css" />
       <change beforePath="$PROJECT_DIR$/lib/app_component.css.map" afterPath="$PROJECT_DIR$/lib/app_component.css.map" />
-      <change beforePath="$PROJECT_DIR$/lib/app_component.dart" afterPath="$PROJECT_DIR$/lib/app_component.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/assets/img/logo.png" afterPath="$PROJECT_DIR$/lib/assets/img/logo.png" />
       <change beforePath="$PROJECT_DIR$/lib/src/header/header_component.css" afterPath="$PROJECT_DIR$/lib/src/header/header_component.css" />
       <change beforePath="$PROJECT_DIR$/lib/src/header/header_component.css.map" afterPath="$PROJECT_DIR$/lib/src/header/header_component.css.map" />
-      <change beforePath="$PROJECT_DIR$/lib/src/header/header_component.html" afterPath="$PROJECT_DIR$/lib/src/header/header_component.html" />
-      <change beforePath="$PROJECT_DIR$/lib/src/header/header_component.scss" afterPath="$PROJECT_DIR$/lib/src/header/header_component.scss" />
       <change beforePath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css" afterPath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css" />
       <change beforePath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css.map" afterPath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css.map" />
       <change beforePath="$PROJECT_DIR$/lib/src/menu/menu_component.css" afterPath="$PROJECT_DIR$/lib/src/menu/menu_component.css" />
       <change beforePath="$PROJECT_DIR$/lib/src/menu/menu_component.css.map" afterPath="$PROJECT_DIR$/lib/src/menu/menu_component.css.map" />
-      <change beforePath="$PROJECT_DIR$/lib/src/menu/menu_component.html" afterPath="$PROJECT_DIR$/lib/src/menu/menu_component.html" />
-      <change beforePath="$PROJECT_DIR$/lib/src/menu/menu_component.scss" afterPath="$PROJECT_DIR$/lib/src/menu/menu_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/schedule/schedule_component.css" afterPath="$PROJECT_DIR$/lib/src/schedule/schedule_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/schedule/schedule_component.css.map" afterPath="$PROJECT_DIR$/lib/src/schedule/schedule_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/schedule/schedule_component.dart" afterPath="$PROJECT_DIR$/lib/src/schedule/schedule_component.dart" />
+      <change beforePath="$PROJECT_DIR$/lib/src/schedule/schedule_component.html" afterPath="$PROJECT_DIR$/lib/src/schedule/schedule_component.html" />
+      <change beforePath="$PROJECT_DIR$/lib/src/schedule/schedule_component.scss" afterPath="$PROJECT_DIR$/lib/src/schedule/schedule_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/theme.css" afterPath="$PROJECT_DIR$/lib/src/theme.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/theme.css.map" afterPath="$PROJECT_DIR$/lib/src/theme.css.map" />
       <change beforePath="$PROJECT_DIR$/lib/src/theme.scss" afterPath="$PROJECT_DIR$/lib/src/theme.scss" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change beforePath="$PROJECT_DIR$/packages/analyzer" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/angular" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/angular_compiler" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/angular_components" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/angular_forms" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/angular_router" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/angular_test" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/ansicolor" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/archive" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/args" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/async" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/barback" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/boolean_selector" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/browser" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/build_barback" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/build_config" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/charcode" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/cli_util" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/code_builder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/code_transformers" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/collection" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/convert" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/crypto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/csslib" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/dart_sass_transformer" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/dart_style" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/dart_to_js_script_rewriter" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/fixnum" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/front_end" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/func" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/glob" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/http" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/http_multi_server" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/http_parser" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/intl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/io" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/isolate" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/kernel" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/logging" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/matcher" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/mime" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/multi_server_socket" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/node_preamble" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/novi_sad_eudc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/observable" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/package_config" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/package_resolver" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/pageloader" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/path" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/perf_api" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/plugin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/pool" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/pub_semver" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/quiver" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/quiver_hashcode" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/sass_builder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/scratch_space" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/shelf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/shelf_packages_handler" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/shelf_static" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/shelf_web_socket" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/source_gen" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/source_map_stack_trace" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/source_maps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/source_span" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/stack_trace" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/stream_channel" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/string_scanner" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/term_glyph" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/test" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/tuple" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/typed_data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/unittest" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/utf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/uuid" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/watcher" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/web_socket_channel" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/webdriver" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/packages/yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/packages" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/packages" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,13 +117,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4555921">
+    <splitter split-orientation="horizontal" split-proportion="0.35082546">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="menu_component.dart" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/src/menu/menu_component.dart">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
+                <state relative-caret-position="115">
                   <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
                   <folding>
                     <element signature="e#0#38#0" expanded="true" />
@@ -54,17 +136,27 @@
             <entry file="file://$PROJECT_DIR$/lib/app_component.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="138">
-                  <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+                  <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="homepage_component.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="schedule_component.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="529">
+                  <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="homepage_component.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/src/homepage/homepage_component.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="42" column="60" lean-forward="true" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="61" />
+                <state relative-caret-position="329">
+                  <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -77,18 +169,28 @@
           <file leaf-file-name="menu_component.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/src/menu/menu_component.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
+                <state relative-caret-position="23">
                   <caret line="74" column="53" lean-forward="false" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="theme.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="theme.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/src/theme.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="316">
-                  <caret line="167" column="39" lean-forward="false" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
+                <state relative-caret-position="550">
+                  <caret line="129" column="14" lean-forward="true" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pubspec.yaml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="460">
+                  <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -97,28 +199,18 @@
           <file leaf-file-name="schedule_component.dart" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.dart">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+                <state relative-caret-position="1860">
+                  <caret line="87" column="4" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="schedule_component.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="schedule_component.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="506">
-                  <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="schedule_component.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="74" lean-forward="true" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
+                <state relative-caret-position="414">
+                  <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -128,7 +220,7 @@
             <entry file="file://$PROJECT_DIR$/lib/src/homepage/homepage_component.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="437">
-                  <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+                  <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -151,6 +243,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>header-image</find>
+      <find>display: flex</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,11 +274,11 @@
         <option value="$PROJECT_DIR$/lib/src/header/header_component.scss" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/lib/assets/index.js" />
-        <option value="$PROJECT_DIR$/lib/src/schedule/schedule_component.dart" />
         <option value="$PROJECT_DIR$/lib/app_component.dart" />
         <option value="$PROJECT_DIR$/lib/src/menu/menu_component.html" />
-        <option value="$PROJECT_DIR$/lib/src/schedule/schedule_component.scss" />
         <option value="$PROJECT_DIR$/lib/src/schedule/schedule_component.html" />
+        <option value="$PROJECT_DIR$/lib/src/schedule/schedule_component.dart" />
+        <option value="$PROJECT_DIR$/lib/src/schedule/schedule_component.scss" />
         <option value="$PROJECT_DIR$/lib/src/theme.scss" />
       </list>
     </option>
@@ -197,8 +290,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-725" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -216,7 +311,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -279,6 +373,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,6 +385,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="schedu&#9;FILE&#9;file:///Users/raluca/Documents/repos/novi-sad-eudc-website/novi-sad-eudc/lib/src/schedule/schedule_component.html" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -330,28 +426,31 @@
       <workItem from="1520356953204" duration="3469000" />
       <workItem from="1520606549682" duration="3458000" />
       <workItem from="1521209534413" duration="1438000" />
+      <workItem from="1521304942793" duration="174000" />
+      <workItem from="1521305159373" duration="7454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40126000" />
+    <option name="totallyTimeSpent" value="47754000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-1920" y="-725" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15555556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3195266" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Dart Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31196055" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938856" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3195266" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -383,7 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -391,7 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -400,7 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -434,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -456,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -489,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -497,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -505,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -524,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,13 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -618,7 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="29" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="5" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,13 +708,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="92" lean-forward="false" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/menu/menu_component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="23">
           <caret line="74" column="53" lean-forward="false" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
           <folding />
         </state>
@@ -642,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,7 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="95" column="32" lean-forward="true" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,13 +744,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/menu/menu_component.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="115">
           <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -680,58 +757,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/homepage/homepage_component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="74" lean-forward="true" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/app_component.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.html">
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="167" column="39" lean-forward="false" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
+        <state relative-caret-position="460">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/homepage/homepage_component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="42" column="60" lean-forward="true" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="61" />
+        <state relative-caret-position="329">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/homepage/homepage_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="129" column="14" lean-forward="true" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="87" column="4" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/schedule/schedule_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding />
         </state>
       </provider>
