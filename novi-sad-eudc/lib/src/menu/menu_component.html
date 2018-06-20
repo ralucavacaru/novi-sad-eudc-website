@@ -5,8 +5,8 @@
     <div class="dropdown top-level">
         About
         <div class="dropdown-content">
-            <a [routerLink]="['Debating']">Debating</a>
-            <a [routerLink]="['Eudc']">EUDC</a>
+            <!--<a [routerLink]="['Debating']">Debating</a>-->
+            <!--<a [routerLink]="['Eudc']">EUDC</a>-->
             <a [routerLink]="['Serbia']">Serbia</a>
             <a [routerLink]="['NoviSad']">Novi Sad</a>
         </div>
@@ -23,15 +23,15 @@
         <div class="dropdown-content">
             <a [routerLink]="['Registration']">Registration</a>
             <a [routerLink]="['Venues']">Venues</a>
-            <a [routerLink]="['Accommodation']">Accommodation</a>
-            <a [routerLink]="['Schedule']">Schedule</a>
+            <!--<a [routerLink]="['Accommodation']">Accommodation</a>-->
+            <!--<a [routerLink]="['Schedule']">Schedule</a>-->
             <a [routerLink]="['Socials']">Socials</a>
             <a [routerLink]="['Scholarship']">Scholarship Program</a>
         </div>
     </div>
-    <div class="top-level">
-        <a [routerLink]="['Partners']">Partners</a>
-    </div>
+    <!--<div class="top-level">-->
+        <!--<a [routerLink]="['Partners']">Partners</a>-->
+    <!--</div>-->
     <div class="top-level">
         <a [routerLink]="['Faq']">FAQ</a>
     </div>
@@ -65,8 +65,8 @@
         <i class="material-icons mob-more">expand_more</i>
         <i class="material-icons mob-less">expand_less</i>
         <div class="sub-level">
-            <a [routerLink]="['Debating']" (click)="toggleMobMenu()">Debating</a>
-            <a [routerLink]="['Eudc']" (click)="toggleMobMenu()">EUDC</a>
+            <!--<a [routerLink]="['Debating']" (click)="toggleMobMenu()">Debating</a>-->
+            <!--<a [routerLink]="['Eudc']" (click)="toggleMobMenu()">EUDC</a>-->
             <a [routerLink]="['Serbia']" (click)="toggleMobMenu()">Serbia</a>
             <a [routerLink]="['NoviSad']" (click)="toggleMobMenu()">Novi Sad</a>
         </div>
@@ -93,18 +93,18 @@
         <div class="sub-level">
             <a [routerLink]="['Registration']" (click)="toggleMobMenu()">Registration</a>
             <a [routerLink]="['Venues']" (click)="toggleMobMenu()">Venues</a>
-            <a [routerLink]="['Accommodation']" (click)="toggleMobMenu()">Accommodation</a>
-            <a [routerLink]="['Schedule']" (click)="toggleMobMenu()">Schedule</a>
+            <!--<a [routerLink]="['Accommodation']" (click)="toggleMobMenu()">Accommodation</a>-->
+            <!--<a [routerLink]="['Schedule']" (click)="toggleMobMenu()">Schedule</a>-->
             <a [routerLink]="['Socials']" (click)="toggleMobMenu()">Socials</a>
             <a [routerLink]="['Scholarship']" (click)="toggleMobMenu()">Scholarship Program</a>
         </div>
     </div>
-    <div class="top-level"
-         #partners
-         (click)="onMobMenuSelect(partners)"
-         [class.active]="isMobMenuSelected(partners)">
-        <a [routerLink]="['Partners']" (click)="toggleMobMenu()">Partners</a>
-    </div>
+    <!--<div class="top-level"-->
+         <!--#partners-->
+         <!--(click)="onMobMenuSelect(partners)"-->
+         <!--[class.active]="isMobMenuSelected(partners)">-->
+        <!--<a [routerLink]="['Partners']" (click)="toggleMobMenu()">Partners</a>-->
+    <!--</div>-->
     <div class="top-level"
          #faq
          (click)="onMobMenuSelect(faq)"

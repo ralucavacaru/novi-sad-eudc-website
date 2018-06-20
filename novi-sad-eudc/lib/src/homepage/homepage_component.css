@@ -48,7 +48,7 @@
     line-height: 1.5em; }
   .full-width-card-blue .card-content p.center, .full-width-card-red .card-content p.center, .full-width-card-img .card-content p.center, .full-width-card-blue .wide-card-content p.center, .full-width-card-red .wide-card-content p.center, .full-width-card-img .wide-card-content p.center {
     text-align: center !important; }
-  .full-width-card-blue .card-content ol, .full-width-card-red .card-content ol, .full-width-card-img .card-content ol, .full-width-card-blue .wide-card-content ol, .full-width-card-red .wide-card-content ol, .full-width-card-img .wide-card-content ol {
+  .full-width-card-blue .card-content ol, .full-width-card-red .card-content ol, .full-width-card-img .card-content ol, .full-width-card-blue .wide-card-content ol, .full-width-card-red .wide-card-content ol, .full-width-card-img .wide-card-content ol, .full-width-card-blue .card-content ul, .full-width-card-red .card-content ul, .full-width-card-img .card-content ul, .full-width-card-blue .wide-card-content ul, .full-width-card-red .wide-card-content ul, .full-width-card-img .wide-card-content ul {
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     line-height: 1.5em;
