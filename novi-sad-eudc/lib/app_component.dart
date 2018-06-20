@@ -16,6 +16,8 @@ import 'src/about/novi-sad/novi_sad_component.dart';
 import 'src/partners/partners_component.dart';
 import 'src/faq/faq_component.dart';
 import 'src/contact/contact_component.dart';
+import 'src/team/ca-team/ca_component.dart';
+import 'src/team/org/org_component.dart';
 
 @Component(
   selector: 'my-app',
@@ -94,6 +96,16 @@ import 'src/contact/contact_component.dart';
     path: '/contact',
     name: 'Contact',
     component: ContactComponent,
+  ),
+  const Route(
+    path: '/ca_team',
+    name: 'CaTeam',
+    component: CaComponent,
+  ),
+  const Route(
+    path: '/organisation_team',
+    name: 'OrgTeam',
+    component: OrgComponent,
   ),
 ])
 class AppComponent {

@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7246b901-ec59-416d-a1ab-ea111bce5793" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/src/tournament/socials/socials_component.html" afterPath="$PROJECT_DIR$/lib/src/tournament/socials/socials_component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.dart" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/src/team/org/org_component.dart" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/src/team/org/org_component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/src/team/org/org_component.scss" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/fcfb7c1620299b4f0c35f1d9a8fe0179afa0160a/theme.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fcfb7c1620299b4f0c35f1d9a8fe0179afa0160a/theme.scssc" />
+      <change beforePath="$PROJECT_DIR$/lib/app_component.css" afterPath="$PROJECT_DIR$/lib/app_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/app_component.dart" afterPath="$PROJECT_DIR$/lib/app_component.dart" />
+      <change beforePath="$PROJECT_DIR$/lib/src/header/header_component.css" afterPath="$PROJECT_DIR$/lib/src/header/header_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css" afterPath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/menu/menu_component.css" afterPath="$PROJECT_DIR$/lib/src/menu/menu_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/menu/menu_component.html" afterPath="$PROJECT_DIR$/lib/src/menu/menu_component.html" />
+      <change beforePath="$PROJECT_DIR$/lib/src/theme.css" afterPath="$PROJECT_DIR$/lib/src/theme.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/theme.scss" afterPath="$PROJECT_DIR$/lib/src/theme.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,31 +31,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="homepage_component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/homepage/homepage_component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="18" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="theme.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/src/theme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="72" column="18" lean-forward="false" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+            <state relative-caret-position="562">
+              <caret line="281" column="0" lean-forward="true" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="socials_component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="socials_component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/src/tournament/socials/socials_component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="219" lean-forward="false" selection-start-line="23" selection-start-column="219" selection-end-line="23" selection-end-column="219" />
+            <state relative-caret-position="92">
+              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="socials_component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/tournament/socials/socials_component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ca_component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/team/ca-team/ca_component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="631">
+              <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ca_component.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/src/team/ca-team/ca_component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration_component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/tournament/registration/registration_component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -70,6 +115,7 @@
       <find>logo</find>
       <find>fixed-co</find>
       <find>h2</find>
+      <find>fixed-c</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -78,10 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/src/venues/venues_component.scss" />
-        <option value="$PROJECT_DIR$/lib/src/registration/registration_component.html" />
-        <option value="$PROJECT_DIR$/lib/src/venues/venues_component.html" />
-        <option value="$PROJECT_DIR$/web/main.dart" />
         <option value="$PROJECT_DIR$/lib/src/title/title_service.dart" />
         <option value="$PROJECT_DIR$/lib/src/registration/registration_component.dart" />
         <option value="$PROJECT_DIR$/lib/src/schedule/schedule_component.dart" />
@@ -115,20 +157,24 @@
         <option value="$PROJECT_DIR$/lib/src/faq/faq.scss" />
         <option value="$PROJECT_DIR$/lib/src/faq/faq.html" />
         <option value="$PROJECT_DIR$/lib/src/contact/contact_component.dart" />
-        <option value="$PROJECT_DIR$/lib/app_component.dart" />
         <option value="$PROJECT_DIR$/lib/src/contact/contact_component.html" />
         <option value="$PROJECT_DIR$/lib/src/contact/contact_component.scss" />
-        <option value="$PROJECT_DIR$/lib/src/menu/menu_component.html" />
         <option value="$PROJECT_DIR$/lib/src/homepage/homepage_component.html" />
         <option value="$PROJECT_DIR$/lib/src/header/header_component.scss" />
         <option value="$PROJECT_DIR$/lib/src/about/novi-sad/novi_sad_component.html" />
         <option value="$PROJECT_DIR$/lib/src/tournament/registration/registration_component.html" />
         <option value="$PROJECT_DIR$/lib/src/tournament/scholarship/scholarship_component.html" />
-        <option value="$PROJECT_DIR$/lib/src/theme.scss" />
         <option value="$PROJECT_DIR$/lib/src/faq/faq_component.dart" />
         <option value="$PROJECT_DIR$/lib/src/faq/faq_component.html" />
         <option value="$PROJECT_DIR$/lib/src/tournament/schedule/schedule_component.scss" />
         <option value="$PROJECT_DIR$/lib/src/tournament/socials/socials_component.html" />
+        <option value="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.dart" />
+        <option value="$PROJECT_DIR$/lib/src/team/org/org_component.dart" />
+        <option value="$PROJECT_DIR$/lib/app_component.dart" />
+        <option value="$PROJECT_DIR$/lib/src/menu/menu_component.html" />
+        <option value="$PROJECT_DIR$/lib/src/theme.scss" />
+        <option value="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.html" />
+        <option value="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.scss" />
       </list>
     </option>
   </component>
@@ -183,6 +229,59 @@
               <item name="novi-sad-eudc" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="team" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="team" type="462c0819:PsiDirectoryNode" />
+              <item name="ca-team" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tournament" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tournament" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tournament" type="462c0819:PsiDirectoryNode" />
+              <item name="socials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tournament" type="462c0819:PsiDirectoryNode" />
+              <item name="venues" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="novi-sad-eudc" type="b2602c69:ProjectViewProjectNode" />
@@ -260,17 +359,18 @@
       <workItem from="1521476805986" duration="58000" />
       <workItem from="1521476886609" duration="10933000" />
       <workItem from="1522345807608" duration="705000" />
-      <workItem from="1529494946967" duration="6459000" />
+      <workItem from="1529494946967" duration="8849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71674000" />
+    <option name="totallyTimeSpent" value="74064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21111111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21111111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -304,76 +404,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/src/tournament/venues/venues_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/tournament/venues/venues_component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/tournament/venues/venues_component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/tournament/socials/socials_component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/title/title_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/tournament/socials/socials_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/tournament/scholarship/scholarship_component.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -521,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="74" column="19" lean-forward="true" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/partners/partners_component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -569,14 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/tournament/registration/registration_component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/about/novi-sad/novi_sad_component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -593,14 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/header/header_component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/faq/faq_component.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -608,22 +615,6 @@
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/menu/menu_component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/menu/menu_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,18 +658,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/theme.scss">
+    <entry file="file://$PROJECT_DIR$/lib/src/team/org/org_component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="72" column="18" lean-forward="false" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/team/org/org_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/tournament/venues/venues_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="105" column="24" lean-forward="false" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/menu/menu_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1886">
+          <caret line="82" column="87" lean-forward="false" selection-start-line="82" selection-start-column="87" selection-end-line="82" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/menu/menu_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/tournament/socials/socials_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/team/org/org_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/team/ca-team/ca_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/header/header_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/tournament/socials/socials_component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="219" lean-forward="false" selection-start-line="23" selection-start-column="219" selection-end-line="23" selection-end-column="219" />
+        <state relative-caret-position="92">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/team/ca-team/ca_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="281" column="0" lean-forward="true" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/tournament/registration/registration_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/tournament/socials/socials_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/team/ca-team/ca_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding />
         </state>
       </provider>
