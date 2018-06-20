@@ -139,7 +139,7 @@ $tablet-breakpoint: 1000px;
   height: 100vh;
   z-index: -100;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
 
   .credits {

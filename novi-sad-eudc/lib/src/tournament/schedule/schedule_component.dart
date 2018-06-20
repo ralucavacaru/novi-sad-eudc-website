@@ -20,6 +20,7 @@ class Day {
   directives: const [CORE_DIRECTIVES],
 )
 class ScheduleComponent {
+
   final schedule = <Day>[
     new Day(
       "Monday 14 AUGUST",
@@ -53,7 +54,8 @@ class ScheduleComponent {
         new Event("18:15 - 19:30", "Buses leave to hotel"),
         new Event("21:00", "Social", "Venue"),
       ],
-    ),new Day(
+    ),
+    new Day(
       "Wednesday 16 AUGUST",
       <Event>[
         new Event("06:30 - 07:45", "Breakfast", "Hotel"),

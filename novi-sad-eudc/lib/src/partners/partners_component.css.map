@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,yBAAc;AAEtB,cAAe;EACb,gBAAgB,EAAE,2DAA2D",
+"sources": ["partners_component.scss"],
+"names": [],
+"file": "partners_component.css"
+}
