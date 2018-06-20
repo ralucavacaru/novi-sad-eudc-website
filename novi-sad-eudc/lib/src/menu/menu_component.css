@@ -25,23 +25,36 @@
 
 .landing {
   position: absolute;
-  top: 140px;
-  right: 80px;
-  width: 600px; }
+  top: 110px;
+  right: 50px;
+  width: 700px; }
 
 .full-width-card-blue .card-content, .full-width-card-red .card-content, .full-width-card-blue .wide-card-content, .full-width-card-red .wide-card-content {
   display: inline-block;
-  text-align: center; }
+  text-align: justify; }
   .full-width-card-blue .card-content h1, .full-width-card-red .card-content h1, .full-width-card-blue .wide-card-content h1, .full-width-card-red .wide-card-content h1 {
     font-family: 'Oswald', sans-serif;
-    font-size: 22px; }
+    font-size: 22px;
+    text-align: center; }
   .full-width-card-blue .card-content h2, .full-width-card-red .card-content h2, .full-width-card-blue .wide-card-content h2, .full-width-card-red .wide-card-content h2 {
     font-family: 'Oswald', sans-serif;
-    font-size: 18px; }
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    padding-top: 0.5em; }
   .full-width-card-blue .card-content p, .full-width-card-red .card-content p, .full-width-card-blue .wide-card-content p, .full-width-card-red .wide-card-content p {
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     line-height: 1.5em; }
+  .full-width-card-blue .card-content p.center, .full-width-card-red .card-content p.center, .full-width-card-blue .wide-card-content p.center, .full-width-card-red .wide-card-content p.center {
+    text-align: center !important; }
+  .full-width-card-blue .card-content ol, .full-width-card-red .card-content ol, .full-width-card-blue .wide-card-content ol, .full-width-card-red .wide-card-content ol {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: white; }
+  .full-width-card-blue .card-content a, .full-width-card-red .card-content a, .full-width-card-blue .wide-card-content a, .full-width-card-red .wide-card-content a, .full-width-card-blue .card-content a:visited, .full-width-card-red .card-content a:visited, .full-width-card-blue .wide-card-content a:visited, .full-width-card-red .wide-card-content a:visited {
+    color: aliceblue; }
 
 .full-width-card-blue, .full-width-card-red {
   width: 100%;
@@ -72,7 +85,10 @@
   .content-columns .adaptive-column {
     padding: 0 10px; }
   .content-columns .fixed-column {
-    padding: 0 10px; }
+    flex: 1;
+    min-width: 200px;
+    padding: 0 10px;
+    text-align: center; }
 
 .header-image {
   top: 0;
@@ -120,13 +136,15 @@
 
   .full-width-card-blue .card-content, .full-width-card-red .card-content, .full-width-card-blue .wide-card-content, .full-width-card-red .wide-card-content {
     display: inline-block;
-    text-align: center; }
+    text-align: justify; }
     .full-width-card-blue .card-content h1, .full-width-card-red .card-content h1, .full-width-card-blue .wide-card-content h1, .full-width-card-red .wide-card-content h1 {
       font-family: 'Oswald', sans-serif;
-      font-size: 22px; }
+      font-size: 22px;
+      text-align: center; }
     .full-width-card-blue .card-content h2, .full-width-card-red .card-content h2, .full-width-card-blue .wide-card-content h2, .full-width-card-red .wide-card-content h2 {
       font-family: 'Oswald', sans-serif;
-      font-size: 18px; }
+      font-size: 18px;
+      font-weight: 400; }
     .full-width-card-blue .card-content p, .full-width-card-red .card-content p, .full-width-card-blue .wide-card-content p, .full-width-card-red .wide-card-content p {
       font-family: 'PT Sans', sans-serif;
       font-size: 16px;

@@ -4,6 +4,11 @@
 
 .wide-card-content h2 {
   text-align: left; }
+.wide-card-content .content-columns {
+  justify-content: center; }
+.wide-card-content .fixed-column {
+  max-width: 400px !important;
+  min-width: 380px !important; }
 
 .day {
   color: white;

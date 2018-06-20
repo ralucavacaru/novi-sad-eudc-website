@@ -6,7 +6,7 @@ $novi-sad-red: #b74241;
 $novi-sad-accent-grey: rgba(218, 224, 215, 0.7);
 
 $header-size: 60px;
-$header-side-margin: 80px;
+$header-side-margin: 50px;
 $logo-size: 120px;
 $mob-logo-size: 90px;
 $header-background-color: rgba(255, 255, 255, 0.8);
@@ -17,6 +17,8 @@ $submenu-font-size: 16px;
 $default-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
 $tablet-breakpoint: 1000px;
+
+$h2-font-weight: 400;
 
 // ICONS
 .material-icons.ns-blue {
@@ -32,6 +34,7 @@ $tablet-breakpoint: 1000px;
 // CARDS
 .translucent-card {
   background-color: $header-background-color;
+  // background-color: red;
   padding: 30px 40px;
   box-sizing: border-box;
   box-shadow: $default-shadow;
@@ -51,25 +54,41 @@ $tablet-breakpoint: 1000px;
   position: absolute;
   top: $header-size + $header-side-margin;
   right: $header-side-margin;
-  width: 600px;
+  width: 700px;
 }
 
 %card-content {
   display: inline-block;
-  text-align: center;
+  text-align: justify;
 
   h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 22px;
+    text-align: center;
   }
   h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
+    font-weight: $h2-font-weight;
+    line-height: 1em;
+    padding-top: 0.5em;
   }
   p {
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     line-height: 1.5em;
+  }
+  p.center {
+    text-align: center !important;
+  }
+  ol {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: white;
+  }
+  a, a:visited {
+    color: aliceblue;
   }
 }
 %full-width-card {
@@ -126,8 +145,10 @@ $tablet-breakpoint: 1000px;
   }
 
   .fixed-column {
-    //flex: 1;
+    flex: 1;
+    min-width: 200px;
     padding: 0 10px;
+    text-align: center;
   }
 }
 
@@ -188,15 +209,17 @@ $tablet-breakpoint: 1000px;
 
   %mob-card-content {
     display: inline-block;
-    text-align: center;
+    text-align: justify;
 
     h1 {
       font-family: 'Oswald', sans-serif;
       font-size: 22px;
+      text-align: center;
     }
     h2 {
       font-family: 'Oswald', sans-serif;
       font-size: 18px;
+      font-weight: $h2-font-weight;
     }
     p {
       font-family: 'PT Sans', sans-serif;

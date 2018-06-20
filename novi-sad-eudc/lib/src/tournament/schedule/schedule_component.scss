@@ -8,6 +8,13 @@
   h2 {
     text-align: left;
   }
+  .content-columns {
+    justify-content: center;
+  }
+  .fixed-column {
+    max-width: 400px !important;
+    min-width: 380px !important;
+  }
 }
 
 .day {
