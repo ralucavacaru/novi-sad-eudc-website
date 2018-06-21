@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAQ,yBAAc;AAEtB,cAAe;EACb,gBAAgB,EAAE,2DAA2D",
-"sources": ["faq.scss"],
+"mappings": "AAAQ,yBAAc;AAEtB,cAAe;EACb,gBAAgB,EAAE,0DAA0D",
+"sources": ["faq_component.scss"],
 "names": [],
-"file": "faq.css"
+"file": "faq_component.css"
 }

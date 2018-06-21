@@ -2,42 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4d52e69-ddc0-42c2-8c9e-220e05fb6917" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/web/index.html" afterPath="$PROJECT_DIR$/build/web/index.html" />
       <change beforePath="$PROJECT_DIR$/build/web/main.dart.js" afterPath="$PROJECT_DIR$/build/web/main.dart.js" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/app_component.css" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/app_component.css" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/app_component.css.map" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/app_component.css.map" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/app_component.html" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/app_component.html" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/faq/faq_component.html" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/faq/faq_component.html" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/header/header_component.css" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/header/header_component.css" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/header/header_component.css.map" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/header/header_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/header/header_component.html" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/header/header_component.html" />
       <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/homepage/homepage_component.css" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/homepage/homepage_component.css" />
       <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/homepage/homepage_component.css.map" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/homepage/homepage_component.css.map" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/homepage/homepage_component.html" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/homepage/homepage_component.html" />
       <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/homepage/homepage_component.scss" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/homepage/homepage_component.scss" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/menu/menu_component.css" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/menu/menu_component.css" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/menu/menu_component.css.map" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/menu/menu_component.css.map" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/menu/menu_component.html" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/menu/menu_component.html" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/ca-team/ca_component.css" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/ca-team/ca_component.css" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/ca-team/ca_component.css.map" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/ca-team/ca_component.css.map" />
       <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/ca-team/ca_component.html" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/ca-team/ca_component.html" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/ca-team/ca_component.scss" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/ca-team/ca_component.scss" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/org/org_component.css" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/org/org_component.css" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/org/org_component.css.map" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/org/org_component.css.map" />
       <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/org/org_component.html" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/org/org_component.html" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/org/org_component.scss" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/team/org/org_component.scss" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/theme.css" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/theme.css" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/theme.css.map" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/theme.css.map" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/theme.scss" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/theme.scss" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/accommodation/accommodation_component.css" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/accommodation/accommodation_component.css" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/accommodation/accommodation_component.css.map" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/accommodation/accommodation_component.css.map" />
       <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/accommodation/accommodation_component.html" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/accommodation/accommodation_component.html" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/accommodation/accommodation_component.scss" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/accommodation/accommodation_component.scss" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/registration/registration_component.html" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/registration/registration_component.html" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/scholarship/scholarship_component.html" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/scholarship/scholarship_component.html" />
-      <change beforePath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/socials/socials_component.html" afterPath="$PROJECT_DIR$/build/web/packages/novi_sad_eudc/src/tournament/socials/socials_component.html" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" afterPath="$PROJECT_DIR$/pubspec.yaml" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change beforePath="$PROJECT_DIR$/lib/src/about/debating/debating_component.css" afterPath="$PROJECT_DIR$/lib/src/about/debating/debating_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/about/debating/debating_component.css.map" afterPath="$PROJECT_DIR$/lib/src/about/debating/debating_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/about/debating/debating_component.scss" afterPath="$PROJECT_DIR$/lib/src/about/debating/debating_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/about/eudc/eudc_component.css" afterPath="$PROJECT_DIR$/lib/src/about/eudc/eudc_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/about/eudc/eudc_component.css.map" afterPath="$PROJECT_DIR$/lib/src/about/eudc/eudc_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/about/eudc/eudc_component.scss" afterPath="$PROJECT_DIR$/lib/src/about/eudc/eudc_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/about/novi-sad/novi_sad_component.css" afterPath="$PROJECT_DIR$/lib/src/about/novi-sad/novi_sad_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/about/novi-sad/novi_sad_component.css.map" afterPath="$PROJECT_DIR$/lib/src/about/novi-sad/novi_sad_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/about/novi-sad/novi_sad_component.scss" afterPath="$PROJECT_DIR$/lib/src/about/novi-sad/novi_sad_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/about/serbia/serbia_component.css" afterPath="$PROJECT_DIR$/lib/src/about/serbia/serbia_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/about/serbia/serbia_component.css.map" afterPath="$PROJECT_DIR$/lib/src/about/serbia/serbia_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/about/serbia/serbia_component.scss" afterPath="$PROJECT_DIR$/lib/src/about/serbia/serbia_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/contact/contact_component.css" afterPath="$PROJECT_DIR$/lib/src/contact/contact_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/contact/contact_component.css.map" afterPath="$PROJECT_DIR$/lib/src/contact/contact_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/contact/contact_component.scss" afterPath="$PROJECT_DIR$/lib/src/contact/contact_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/faq/faq_component.css" afterPath="$PROJECT_DIR$/lib/src/faq/faq_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/faq/faq_component.css.map" afterPath="$PROJECT_DIR$/lib/src/faq/faq_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/faq/faq_component.scss" afterPath="$PROJECT_DIR$/lib/src/faq/faq_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/header/header_component.html" afterPath="$PROJECT_DIR$/lib/src/header/header_component.html" />
+      <change beforePath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css" afterPath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css.map" afterPath="$PROJECT_DIR$/lib/src/homepage/homepage_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/homepage/homepage_component.scss" afterPath="$PROJECT_DIR$/lib/src/homepage/homepage_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/partners/partners_component.css" afterPath="$PROJECT_DIR$/lib/src/partners/partners_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/partners/partners_component.css.map" afterPath="$PROJECT_DIR$/lib/src/partners/partners_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/partners/partners_component.scss" afterPath="$PROJECT_DIR$/lib/src/partners/partners_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.css" afterPath="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.css.map" afterPath="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.html" afterPath="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.html" />
+      <change beforePath="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.scss" afterPath="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/team/org/org_component.css" afterPath="$PROJECT_DIR$/lib/src/team/org/org_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/team/org/org_component.css.map" afterPath="$PROJECT_DIR$/lib/src/team/org/org_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/team/org/org_component.html" afterPath="$PROJECT_DIR$/lib/src/team/org/org_component.html" />
+      <change beforePath="$PROJECT_DIR$/lib/src/team/org/org_component.scss" afterPath="$PROJECT_DIR$/lib/src/team/org/org_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.css" afterPath="$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.css.map" afterPath="$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.html" afterPath="$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.html" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.scss" afterPath="$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/registration/registration_component.css" afterPath="$PROJECT_DIR$/lib/src/tournament/registration/registration_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/registration/registration_component.css.map" afterPath="$PROJECT_DIR$/lib/src/tournament/registration/registration_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/registration/registration_component.scss" afterPath="$PROJECT_DIR$/lib/src/tournament/registration/registration_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/schedule/schedule_component.css" afterPath="$PROJECT_DIR$/lib/src/tournament/schedule/schedule_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/schedule/schedule_component.css.map" afterPath="$PROJECT_DIR$/lib/src/tournament/schedule/schedule_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/schedule/schedule_component.scss" afterPath="$PROJECT_DIR$/lib/src/tournament/schedule/schedule_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/scholarship/scholarship_component.css" afterPath="$PROJECT_DIR$/lib/src/tournament/scholarship/scholarship_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/scholarship/scholarship_component.css.map" afterPath="$PROJECT_DIR$/lib/src/tournament/scholarship/scholarship_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/scholarship/scholarship_component.scss" afterPath="$PROJECT_DIR$/lib/src/tournament/scholarship/scholarship_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/socials/socials_component.css" afterPath="$PROJECT_DIR$/lib/src/tournament/socials/socials_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/socials/socials_component.css.map" afterPath="$PROJECT_DIR$/lib/src/tournament/socials/socials_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/socials/socials_component.scss" afterPath="$PROJECT_DIR$/lib/src/tournament/socials/socials_component.scss" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/venues/venues_component.css" afterPath="$PROJECT_DIR$/lib/src/tournament/venues/venues_component.css" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/venues/venues_component.css.map" afterPath="$PROJECT_DIR$/lib/src/tournament/venues/venues_component.css.map" />
+      <change beforePath="$PROJECT_DIR$/lib/src/tournament/venues/venues_component.scss" afterPath="$PROJECT_DIR$/lib/src/tournament/venues/venues_component.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,108 +75,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="theme.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/theme.scss">
+      <file leaf-file-name="venues_component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/tournament/venues/venues_component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="215" column="4" lean-forward="false" selection-start-line="215" selection-start-column="4" selection-end-line="215" selection-end-column="4" />
+            <state relative-caret-position="69">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pubspec.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homepage_component.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/homepage/homepage_component.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homepage_component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/homepage/homepage_component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer_component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/footer/footer_component.html">
+      <file leaf-file-name="app_component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/app_component.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-              <folding>
-                <element signature="e#3#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app_component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/app_component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.html">
+      <file leaf-file-name="schedule_component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/tournament/schedule/schedule_component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="69">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ca_component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/src/team/ca-team/ca_component.html">
+      <file leaf-file-name="partners_component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/partners/partners_component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="69">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_component.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/app_component.dart">
+      <file leaf-file-name="faq_component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/faq/faq_component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="72" lean-forward="false" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header_component.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/header/header_component.dart">
+      <file leaf-file-name="contact_component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/contact/contact_component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serbia_component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/about/serbia/serbia_component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="novi_sad_component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/about/novi-sad/novi_sad_component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eudc_component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/about/eudc/eudc_component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="debating_component.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/src/about/debating/debating_component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -194,14 +212,9 @@
       <list>
         <option value="$PROJECT_DIR$/lib/src/tournament/socials/socials_component.html" />
         <option value="$PROJECT_DIR$/lib/src/tournament/registration/registration_component.html" />
-        <option value="$PROJECT_DIR$/lib/src/team/org/org_component.html" />
-        <option value="$PROJECT_DIR$/lib/src/team/org/org_component.scss" />
         <option value="$PROJECT_DIR$/lib/src/tournament/scholarship/scholarship_component.html" />
         <option value="$PROJECT_DIR$/lib/src/faq/faq_component.html" />
         <option value="$PROJECT_DIR$/lib/src/menu/menu_component.html" />
-        <option value="$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.html" />
-        <option value="$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.scss" />
-        <option value="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.scss" />
         <option value="$PROJECT_DIR$/lib/src/footer/footer-component.dart" />
         <option value="$PROJECT_DIR$/lib/src/footer/footer-component.scss" />
         <option value="$PROJECT_DIR$/lib/src/footer/footer-component.html" />
@@ -209,11 +222,29 @@
         <option value="$PROJECT_DIR$/lib/app_component.html" />
         <option value="$PROJECT_DIR$/lib/src/footer/footer_component.html" />
         <option value="$PROJECT_DIR$/lib/src/homepage/homepage_component.html" />
-        <option value="$PROJECT_DIR$/lib/src/homepage/homepage_component.scss" />
         <option value="$PROJECT_DIR$/lib/src/theme.scss" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.html" />
+        <option value="$PROJECT_DIR$/lib/src/header/header_component.html" />
+        <option value="$PROJECT_DIR$/lib/src/homepage/homepage_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/team/org/org_component.html" />
+        <option value="$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.html" />
+        <option value="$PROJECT_DIR$/lib/src/team/ca-team/ca_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/team/org/org_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/tournament/registration/registration_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/tournament/scholarship/scholarship_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/tournament/socials/socials_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/tournament/venues/venues_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/tournament/schedule/schedule_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/partners/partners_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/faq/faq_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/contact/contact_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/about/serbia/serbia_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/about/novi-sad/novi_sad_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/about/eudc/eudc_component.scss" />
+        <option value="$PROJECT_DIR$/lib/src/about/debating/debating_component.scss" />
       </list>
     </option>
   </component>
@@ -268,7 +299,67 @@
               <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
+              <item name="debating" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
+              <item name="eudc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
+              <item name="novi-sad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
+              <item name="serbia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="faq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
@@ -289,6 +380,13 @@
               <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="partners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="team" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -298,6 +396,76 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="team" type="462c0819:PsiDirectoryNode" />
               <item name="ca-team" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="team" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="title" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tournament" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tournament" type="462c0819:PsiDirectoryNode" />
+              <item name="accommodation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tournament" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tournament" type="462c0819:PsiDirectoryNode" />
+              <item name="schedule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tournament" type="462c0819:PsiDirectoryNode" />
+              <item name="scholarship" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tournament" type="462c0819:PsiDirectoryNode" />
+              <item name="socials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="novi-sad-eudc-website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tournament" type="462c0819:PsiDirectoryNode" />
+              <item name="venues" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="novi-sad-eudc-website" type="b2602c69:ProjectViewProjectNode" />
@@ -344,12 +512,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529514089001</updated>
-      <workItem from="1529514092134" duration="13619000" />
+      <workItem from="1529514092134" duration="14095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13619000" />
+    <option name="totallyTimeSpent" value="14095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1056" height="900" extended-state="6" />
@@ -410,22 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/team/org/org_component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/team/org/org_component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/faq/faq_component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1196">
@@ -450,30 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/team/ca-team/ca_component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/menu/menu_component.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -489,7 +617,7 @@
         <state relative-caret-position="276">
           <caret line="12" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -502,20 +630,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/header/header_component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/app_component.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="26" column="72" lean-forward="false" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -543,7 +663,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
           <folding>
-            <element signature="e#3#9#0" expanded="true" />
+            <element signature="e#3#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -552,14 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/homepage/homepage_component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -598,8 +710,176 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/team/ca-team/ca_component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="549">
+          <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/header/header_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/team/org/org_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/homepage/homepage_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/menu/menu_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/team/ca-team/ca_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/team/org/org_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/tournament/accommodation/accommodation_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/tournament/registration/registration_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/tournament/scholarship/scholarship_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/tournament/socials/socials_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/tournament/venues/venues_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/tournament/schedule/schedule_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/partners/partners_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/faq/faq_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/contact/contact_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/about/serbia/serbia_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/about/novi-sad/novi_sad_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/about/eudc/eudc_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/about/debating/debating_component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
         </state>
       </provider>

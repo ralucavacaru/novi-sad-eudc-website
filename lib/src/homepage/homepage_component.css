@@ -245,10 +245,10 @@ h2 {
   background-color: #1b4172; }
 
 .landing-image {
-  background-image: url(/packages/novi_sad_eudc/assets/img/novi-sad-3.jpg);
+  background-image: url(packages/novi_sad_eudc/assets/img/novi-sad-3.jpg);
   height: 100%; }
 
 .full-width-card-img {
-  background-image: url(/packages/novi_sad_eudc/assets/img/novi-sad-2.jpg); }
+  background-image: url(packages/novi_sad_eudc/assets/img/novi-sad-2.jpg); }
 
 /*# sourceMappingURL=homepage_component.css.map */

@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAQ,yBAAc;AAEtB,cAAe;EACb,gBAAgB,EAAE,2DAA2D",
+"mappings": "AAAQ,yBAAc;AAEtB,cAAe;EACb,gBAAgB,EAAE,0DAA0D",
 "sources": ["contact_component.scss"],
 "names": [],
 "file": "contact_component.css"

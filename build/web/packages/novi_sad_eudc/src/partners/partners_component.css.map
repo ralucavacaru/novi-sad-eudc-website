@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAQ,yBAAc;AAEtB,cAAe;EACb,gBAAgB,EAAE,2DAA2D",
+"mappings": "AAAQ,yBAAc;AAEtB,cAAe;EACb,gBAAgB,EAAE,0DAA0D",
 "sources": ["partners_component.scss"],
 "names": [],
 "file": "partners_component.css"

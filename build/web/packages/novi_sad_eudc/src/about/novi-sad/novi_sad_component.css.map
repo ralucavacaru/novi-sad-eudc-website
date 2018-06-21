@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAQ,4BAAiB;AAEzB,cAAe;EACb,gBAAgB,EAAE,2DAA2D",
+"mappings": "AAAQ,4BAAiB;AAEzB,cAAe;EACb,gBAAgB,EAAE,0DAA0D",
 "sources": ["novi_sad_component.scss"],
 "names": [],
 "file": "novi_sad_component.css"
