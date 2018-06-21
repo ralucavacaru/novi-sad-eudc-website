@@ -192,9 +192,6 @@ ns-header {
   background-attachment: fixed;
 
   .credits {
-    position: absolute;
-    bottom: 0;
-    right: 0;
     padding: 15px;
     display: inline;
     font-family: 'Oswald', sans-serif;
@@ -207,7 +204,7 @@ ns-header {
   //position: absolute;
   $header-image-small-height: 300px;
   top: 0;
-  width: 100vw;
+  width: 100%;
   height: $header-image-small-height;
   z-index: -100;
   background-repeat: no-repeat;
@@ -215,9 +212,9 @@ ns-header {
   background-attachment: fixed;
 
   .credits {
-    position: absolute;
+    position: relative;
     top: $header-image-small-height - 40px;
-    right: 0;
+    left: calc(100% - 120px);
     padding: 15px;
     display: inline;
     font-family: 'Oswald', sans-serif;
@@ -340,63 +337,13 @@ ns-footer {
     }
   }
 }
-@media only screen and (max-width: 800px) {
-  .landing-image {
-    height: 115vh;
-
-    .credits {
-      top: 110vh;
-    }
-  }
-}
 @media only screen and (max-width: 600px) {
-  .header-image {
-    height: 130vh;
-
-    .credits {
-      top: 125vh;
-    }
-  }
   .header-image-small {
-    background-size: 600px;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .header-image {
-    height: 140vh;
-
-    .credits {
-      top: 135vh;
-    }
-  }
-}
-@media only screen and (max-width: 500px) {
-  .header-image {
-    height: 150vh;
-
-    .credits {
-      top: 145vh;
-    }
+    background-size: cover !important;
   }
 }
 @media only screen and (max-width: 400px) {
-  .header-image {
-    height: 185vh;
-
-    .credits {
-      top: 180vh;
-    }
-  }
   .full-width-card-blue {
     padding: 20px 10px;
-  }
-}
-@media only screen and (max-width: 350px) {
-  .header-image {
-    height: 230vh;
-
-    .credits {
-      top: 225vh;
-    }
   }
 }
