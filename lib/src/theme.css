@@ -27,9 +27,9 @@
     line-height: 1.5em; }
 
 .landing {
-  position: absolute;
+  position: relative;
   top: 110px;
-  right: 50px;
+  left: calc(100% - 700px);
   width: 700px; }
 
 .full-width-card-blue .card-content, .full-width-card-red .card-content, .full-width-card-white .card-content, .full-width-card-blue .wide-card-content, .full-width-card-red .wide-card-content, .full-width-card-white .wide-card-content {
@@ -150,9 +150,17 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+html {
+  height: 100% !important; }
+
+body {
+  position: relative;
+  height: auto;
+  min-height: 100% !important; }
+
 .everything-wrapper {
   display: flex;
-  min-height: 100vh;
+  height: 100%;
   flex-direction: column; }
 
 .everything-but-footer-wrapper {

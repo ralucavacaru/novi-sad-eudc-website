@@ -35,7 +35,9 @@ $h2-font-weight: 400;
 .content-wrapper {
   background-color: $novi-sad-blue !important;
 }
-
+ns-header {
+  z-index: 100;
+}
 // CARDS
 .translucent-card {
   background-color: $header-background-color;
@@ -56,9 +58,12 @@ $h2-font-weight: 400;
   }
 }
 .landing {
-  position: absolute;
-  top: $header-size + $header-side-margin;
-  right: $header-side-margin;
+  //position: absolute;
+  position: relative;
+  padding-top: $header-size + $header-side-margin;
+  left: calc(100% - 700px - 50px);
+  padding-bottom: $header-side-margin;
+  //padding-right: $header-side-margin;
   width: 700px;
 }
 
@@ -231,9 +236,13 @@ $h2-font-weight: 400;
   box-sizing: border-box;
 }
 
+html {
+  height: 100% !important;
+}
+
 .everything-wrapper {
   display: flex;
-  min-height: 100vh;
+  min-height: 100%;
   flex-direction: column;
 }
 .everything-but-footer-wrapper {

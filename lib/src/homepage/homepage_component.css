@@ -12,6 +12,9 @@
 .content-wrapper {
   background-color: #1b4172 !important; }
 
+ns-header {
+  z-index: 100; }
+
 .translucent-card {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 30px 40px;
@@ -27,9 +30,10 @@
     line-height: 1.5em; }
 
 .landing {
-  position: absolute;
-  top: 110px;
-  right: 50px;
+  position: relative;
+  padding-top: 110px;
+  left: calc(100% - 700px - 50px);
+  padding-bottom: 50px;
   width: 700px; }
 
 .full-width-card-blue .card-content, .full-width-card-red .card-content, .full-width-card-white .card-content, .full-width-card-img .card-content, .full-width-card-blue .wide-card-content, .full-width-card-red .wide-card-content, .full-width-card-white .wide-card-content, .full-width-card-img .wide-card-content {
@@ -155,9 +159,12 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+html {
+  height: 100% !important; }
+
 .everything-wrapper {
   display: flex;
-  min-height: 100vh;
+  min-height: 100%;
   flex-direction: column; }
 
 .everything-but-footer-wrapper {
@@ -271,7 +278,8 @@ h2 {
   background-color: #1b4172; }
 
 .landing-image {
-  background-image: url(/packages/novi_sad_eudc/assets/img/novi-sad-3.jpg); }
+  background-image: url(/packages/novi_sad_eudc/assets/img/novi-sad-3.jpg);
+  height: 100%; }
 
 .full-width-card-img {
   background-image: url(/packages/novi_sad_eudc/assets/img/novi-sad-2.jpg); }
