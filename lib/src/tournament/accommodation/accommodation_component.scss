@@ -3,3 +3,40 @@
 .landing-image {
   background-image: url(/packages/novi_sad_eudc/assets/img/novi-sad-banner.jpg);
 }
+
+.photos-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+
+  .hotel-img {
+    flex: 0 0 auto;
+    min-width: 200px;
+    max-width: 300px;
+    align-self: center;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .hotel-img {
+    width: calc(100%/3);
+    height: calc(100%/3);
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .photos img {
+    width: calc(100%/2);
+    height: calc(100%/2);
+  }
+}
+@media screen and (max-width: 480px) {
+  .photos img {
+    max-width: calc(100%);
+    height: calc(100%);
+    min-width: unset;
+  }
+}

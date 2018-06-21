@@ -1,0 +1,26 @@
+<div class="header-image-small landing-image">
+    <div class="credits">Photo By: John Doe</div>
+</div>
+
+<div class="full-width-card-blue schedule">
+    <div class="wide-card-content">
+        <h1>Schedule</h1>
+        <div class="content-columns">
+            <div class="fixed-column" *ngFor="let day of schedule">
+                <h2>{{day.name}}</h2>
+                <div class="day" *ngFor="let event of day.events">
+                    <div class="event">
+                        <div class="time">{{event.time}}</div>
+                        <div class="event-details">
+                            <div class="event-name">{{event.name}}</div>
+                            <div class="location" *ngIf="event.location != null">
+                                <i class="material-icons">room</i>
+                                {{event.location}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

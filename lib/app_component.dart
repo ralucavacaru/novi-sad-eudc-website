@@ -18,12 +18,13 @@ import 'src/faq/faq_component.dart';
 import 'src/contact/contact_component.dart';
 import 'src/team/ca-team/ca_component.dart';
 import 'src/team/org/org_component.dart';
+import 'src/footer/footer_component.dart';
 
 @Component(
   selector: 'my-app',
   styleUrls: const ['app_component.css'],
   templateUrl: 'app_component.html',
-  directives: const [ROUTER_DIRECTIVES, HeaderComponent],
+  directives: const [ROUTER_DIRECTIVES, HeaderComponent, FooterComponent],
 )
 @RouteConfig(const [
   const Route(

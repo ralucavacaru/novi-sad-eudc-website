@@ -4,6 +4,7 @@
 $novi-sad-blue: #1b4172;
 $novi-sad-red: #b74241;
 $novi-sad-accent-grey: rgba(218, 224, 215, 0.7);
+$novi-sad-footer: #112b4f;
 
 $header-size: 60px;
 $header-side-margin: 50px;
@@ -29,6 +30,10 @@ $h2-font-weight: 400;
 }
 .material-icons.ns-white {
   color: white;
+}
+
+.content-wrapper {
+  background-color: $novi-sad-blue !important;
 }
 
 // CARDS
@@ -59,12 +64,12 @@ $h2-font-weight: 400;
 
 %card-content {
   display: inline-block;
-  text-align: justify;
+  text-align: left;
 
   h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 22px;
-    text-align: center;
+    //text-align: center;
   }
   h2 {
     font-family: 'Oswald', sans-serif;
@@ -78,7 +83,7 @@ $h2-font-weight: 400;
     font-size: 16px;
     line-height: 1.5em;
   }
-  p.center {
+  p.center, h1.center, h2.center {
     text-align: center !important;
   }
   ol, ul {
@@ -92,12 +97,18 @@ $h2-font-weight: 400;
   }
 }
 %full-width-card {
-  width: 100%;
-  padding: 40px 100px;
+  //width: 100%;
+  padding: 40px 0;
+  margin: 0 100px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
+  border-bottom: rgba(255, 255, 255, 0.5) solid 1px;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
 
   .card-content {
     @extend %card-content;
@@ -122,6 +133,16 @@ $h2-font-weight: 400;
     color: white;
   }
 }
+.full-width-card-white {
+  @extend %full-width-card;
+  background-color: white;
+  h1, h2, h3, p {
+    color: black;
+  }
+  .translucent {
+    background-color: $novi-sad-blue;
+  }
+}
 %full-width-card-img {
   @extend %full-width-card;
   background-attachment: fixed;
@@ -139,6 +160,7 @@ $h2-font-weight: 400;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: stretch;
 
   .adaptive-column {
     padding: 0 10px;
@@ -148,7 +170,8 @@ $h2-font-weight: 400;
     flex: 1;
     min-width: 200px;
     padding: 0 15px;
-    text-align: center;
+    text-align: left;
+    margin: 0 10px 10px;
   }
 }
 
@@ -198,6 +221,33 @@ $h2-font-weight: 400;
     font-weight: 200;
   }
 }
+
+.translucent {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px 50px !important;
+  box-shadow: $default-shadow;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.everything-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.everything-but-footer-wrapper {
+  flex: 1;
+  background-color: $novi-sad-blue;
+}
+ns-footer {
+  background-color: $novi-sad-footer;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
+
 // RESPONSIVE DESIGN
 
 @media only screen and (max-width: $tablet-breakpoint) {
@@ -209,12 +259,12 @@ $h2-font-weight: 400;
 
   %mob-card-content {
     display: inline-block;
-    text-align: justify;
+    text-align: left;
 
     h1 {
       font-family: 'Oswald', sans-serif;
       font-size: 22px;
-      text-align: center;
+      //text-align: center;
     }
     h2 {
       font-family: 'Oswald', sans-serif;
@@ -226,6 +276,9 @@ $h2-font-weight: 400;
       font-size: 16px;
       line-height: 1.5em;
     }
+    p.center, h1.center, h2.center {
+      text-align: center !important;
+    }
   }
   %mob-full-width-card {
     width: 100%;
@@ -234,6 +287,7 @@ $h2-font-weight: 400;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     text-align: center;
+    margin: 0;
 
     .card-content {
       @extend %mob-card-content;
@@ -258,12 +312,31 @@ $h2-font-weight: 400;
       color: white;
     }
   }
+  .full-width-card-white {
+    @extend %mob-full-width-card;
+    background-color: white;
+    h1, h2, h3, p {
+      color: black;
+    }
+    .translucent {
+      background-color: $novi-sad-blue;
+    }
+  }
   %full-width-card-img {
     @extend %mob-full-width-card;
     background-attachment: fixed;
 
     h1, h2, h3, p {
       color: white;
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .landing-image {
+    height: 115vh;
+
+    .credits {
+      top: 110vh;
     }
   }
 }
@@ -279,7 +352,16 @@ $h2-font-weight: 400;
     background-size: 600px;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
+  .header-image {
+    height: 140vh;
+
+    .credits {
+      top: 135vh;
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
   .header-image {
     height: 150vh;
 
@@ -288,12 +370,24 @@ $h2-font-weight: 400;
     }
   }
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
   .header-image {
-    height: 200vh;
+    height: 185vh;
 
     .credits {
-      height: 195vh;
+      top: 180vh;
+    }
+  }
+  .full-width-card-blue {
+    padding: 20px 10px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .header-image {
+    height: 230vh;
+
+    .credits {
+      top: 225vh;
     }
   }
 }

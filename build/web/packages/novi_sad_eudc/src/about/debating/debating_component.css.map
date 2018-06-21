@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,4BAAiB;AAEzB,cAAe;EACb,gBAAgB,EAAE,2DAA2D",
+"sources": ["debating_component.scss"],
+"names": [],
+"file": "debating_component.css"
+}

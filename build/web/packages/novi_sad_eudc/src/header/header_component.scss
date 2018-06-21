@@ -1,0 +1,58 @@
+@import '../theme';
+
+$semi-oval-width: 180px;
+$semi-oval-height: 90px;
+$logo-margin: $header-side-margin + ($semi-oval-width - $logo-size) / 2;
+
+:host {
+  width: 100%;
+  height: $header-size;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: $header-background-color;
+}
+img {
+  position: relative;
+  height: $logo-size;
+  margin: 15px 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left: $logo-margin;
+  z-index: 100;
+}
+
+ns-menu {
+  float: right;
+  margin-right: $header-side-margin;
+}
+
+.semi-oval {
+  background-color: $header-background-color;
+  width: $semi-oval-width;
+  height: $semi-oval-height;
+  border-radius: 50% / 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  position: absolute;
+  top: $header-size;
+  left: $header-side-margin;
+}
+
+@media only screen and (max-width: $tablet-breakpoint) {
+  $mob-semi-oval-width: 90px;
+  $mob-semi-oval-height: 40px;
+  $mob-semi-oval-margin: 20px;
+  $mob-logo-margin: $mob-semi-oval-margin + ($mob-semi-oval-width - $mob-logo-size) / 2;
+  .header-logo {
+    width: $mob-logo-size;
+    height: $mob-logo-size;
+    left: $mob-logo-margin;
+    margin-left: 0;
+  }
+  .semi-oval {
+    width: $mob-semi-oval-width;
+    height: $mob-semi-oval-height;
+    left: $mob-semi-oval-margin;
+  }
+}

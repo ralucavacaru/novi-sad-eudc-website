@@ -10,7 +10,7 @@
   min-width: 300px !important;
   padding: 20px; }
   .fixed-column p {
-    text-align: justify !important; }
+    text-align: left !important; }
   .fixed-column h2 {
     font-size: 25px; }
 
