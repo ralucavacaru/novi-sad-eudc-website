@@ -27,7 +27,7 @@ transformers:
 - test/pub_serve:
     $include: test/**_test.dart
 - dart_to_js_script_rewriter
-- dart_sass_transformer
+#- dart_sass_transformer
 
 
 # Uncomment the following in sdk 1.24+ to make pub serve

@@ -10,14 +10,14 @@
   text-align: center !important; }
 
 p, ul {
-  text-align: justify !important; }
+  text-align: left !important; }
 
 .fixed-column {
   max-width: 300px;
   min-width: 300px !important;
   padding: 20px; }
   .fixed-column p {
-    text-align: justify !important; }
+    text-align: left !important; }
   .fixed-column h2 {
     font-size: 25px; }
 
